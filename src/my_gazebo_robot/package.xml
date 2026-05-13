@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>my_gazebo_robot</name>
+  <version>0.0.0</version>
+  <description>Gazebo simulation of a differential drive robot with lidar</description>
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- 构建工具依赖 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- 编译 + 运行都需要的依赖（C++ 节点会用到的库） -->
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>urdf</depend>
+
+  <!-- 仅在运行时需要的依赖（launch 文件里启动的包） -->
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher_gui</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>teleop_twist_keyboard</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
