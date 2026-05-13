@@ -1,0 +1,8 @@
+source;share/turtle_circle/hook/cmake_prefix_path.ps1
+source;share/turtle_circle/hook/cmake_prefix_path.dsv
+source;share/turtle_circle/hook/cmake_prefix_path.sh
+source;share/turtle_circle/local_setup.bash
+source;share/turtle_circle/local_setup.dsv
+source;share/turtle_circle/local_setup.ps1
+source;share/turtle_circle/local_setup.sh
+source;share/turtle_circle/local_setup.zsh

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-830735acfbcd962b1949.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "turtle_circle",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_circle_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_circle_publisher-56e4bac9c1880ab2a223.json",
+					"name" : "turtle_circle_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_circle_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_circle_uninstall-ba3c1dda84d14b5fd196.json",
+					"name" : "turtle_circle_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_pose_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_pose_subscriber-f39d800c4a5250f81eac.json",
+					"name" : "turtle_pose_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-99a0013fac1e1a410e00.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zzz/ros2_ws/build/turtle_circle",
+		"source" : "/home/zzz/ros2_ws/src/turtle_circle"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

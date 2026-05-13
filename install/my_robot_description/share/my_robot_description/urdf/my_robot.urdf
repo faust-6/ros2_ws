@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<robot name="my_robot">
+
+  <!-- 1. 底盘 -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.4 0.2 0.15"/>       <!-- 长宽高 -->
+      </geometry>
+      <material name="blue">
+        <color rgba="0.2 0.4 1.0 1.0"/>  <!-- 蓝色 -->
+      </material>
+    </visual>
+  </link>
+
+  <!-- 2. 左轮 - 可无限旋转的关节 -->
+  <joint name="left_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="left_wheel"/>
+    <origin xyz="-0.15 0.12 -0.075" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+  <link name="left_wheel">
+    <visual>
+      <geometry>
+        <cylinder radius="0.04" length="0.02"/>
+      </geometry>
+      <material name="black">
+        <color rgba="0 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- 3. 右轮 - 位置对称 -->
+  <joint name="right_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="right_wheel"/>
+    <origin xyz="-0.15 -0.12 -0.075" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+  <link name="right_wheel">
+    <visual>
+      <geometry>
+        <cylinder radius="0.04" length="0.02"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+  </link>
+
+  <!-- 4. 激光雷达（装饰，固定关节） -->
+  <joint name="laser_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="laser"/>
+    <origin xyz="0.2 0 0.05" rpy="0 0 0"/>
+  </joint>
+  <link name="laser">
+    <visual>
+      <geometry>
+        <cylinder radius="0.02" length="0.02"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+</robot>

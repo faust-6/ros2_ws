@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.000958] (turtle_circle) JobQueued: {'identifier': 'turtle_circle', 'dependencies': OrderedDict()}
+[0.000993] (turtle_circle) JobStarted: {'identifier': 'turtle_circle'}
+[0.007605] (turtle_circle) JobProgress: {'identifier': 'turtle_circle', 'progress': 'cmake'}
+[0.008418] (turtle_circle) Command: {'cmd': ['/usr/bin/cmake', '/home/zzz/ros2_ws/src/turtle_circle', '-DCMAKE_INSTALL_PREFIX=/home/zzz/ros2_ws/install/turtle_circle'], 'cwd': '/home/zzz/ros2_ws/build/turtle_circle', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'zzz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zzz', 'OLDPWD': '/home/zzz/ros2_ws/src/turtle_circle', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2887', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zzz', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zzz', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/zzz-VMware-Virtual-Platform:@/tmp/.ICE-unix/2638,unix/zzz-VMware-Virtual-Platform:/tmp/.ICE-unix/2638', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7e213c6a_3c38_420e_b7b0_34d1bb6c518e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zzz/ros2_ws/build/turtle_circle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.100108] (-) TimerEvent: {}
+[0.112782] (turtle_circle) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.192281] (turtle_circle) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.200255] (-) TimerEvent: {}
+[0.206060] (turtle_circle) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.276964] (turtle_circle) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.281871] (turtle_circle) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.282079] (turtle_circle) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.282230] (turtle_circle) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.289928] (turtle_circle) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300371] (-) TimerEvent: {}
+[0.365607] (turtle_circle) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.370737] (turtle_circle) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.370953] (turtle_circle) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.371136] (turtle_circle) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.372931] (turtle_circle) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.400495] (-) TimerEvent: {}
+[0.468051] (turtle_circle) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.500644] (-) TimerEvent: {}
+[0.534993] (turtle_circle) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.557556] (turtle_circle) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.564520] (turtle_circle) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.573037] (turtle_circle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.582575] (turtle_circle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600870] (-) TimerEvent: {}
+[0.629541] (turtle_circle) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.631091] (turtle_circle) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.690815] (turtle_circle) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.700993] (-) TimerEvent: {}
+[0.703955] (turtle_circle) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.721111] (turtle_circle) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.766878] (turtle_circle) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.787346] (turtle_circle) StdoutLine: {'line': b'-- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)\n'}
+[0.801190] (-) TimerEvent: {}
+[0.823285] (turtle_circle) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.890222] (turtle_circle) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.890411] (turtle_circle) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.890452] (turtle_circle) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.890580] (turtle_circle) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.891150] (turtle_circle) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.891205] (turtle_circle) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.891446] (turtle_circle) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.892184] (turtle_circle) StdoutLine: {'line': b'-- Configuring done (0.9s)\n'}
+[0.901284] (-) TimerEvent: {}
+[0.901662] (turtle_circle) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.905263] (turtle_circle) StdoutLine: {'line': b'-- Build files have been written to: /home/zzz/ros2_ws/build/turtle_circle\n'}
+[0.912472] (turtle_circle) CommandEnded: {'returncode': 0}
+[0.912936] (turtle_circle) JobProgress: {'identifier': 'turtle_circle', 'progress': 'build'}
+[0.913509] (turtle_circle) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zzz/ros2_ws/build/turtle_circle', '--', '-j8', '-l8'], 'cwd': '/home/zzz/ros2_ws/build/turtle_circle', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'zzz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zzz', 'OLDPWD': '/home/zzz/ros2_ws/src/turtle_circle', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2887', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zzz', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zzz', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/zzz-VMware-Virtual-Platform:@/tmp/.ICE-unix/2638,unix/zzz-VMware-Virtual-Platform:/tmp/.ICE-unix/2638', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7e213c6a_3c38_420e_b7b0_34d1bb6c518e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zzz/ros2_ws/build/turtle_circle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.958413] (turtle_circle) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_circle_publisher.dir/src/turtle_circle_publisher.cpp.o\x1b[0m\n'}
+[0.958775] (turtle_circle) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_pose_subscriber.dir/src/turtle_pose_subscriber.cpp.o\x1b[0m\n'}
+[1.001481] (-) TimerEvent: {}
+[1.101779] (-) TimerEvent: {}
+[1.202236] (-) TimerEvent: {}
+[1.302634] (-) TimerEvent: {}
+[1.403008] (-) TimerEvent: {}
+[1.503344] (-) TimerEvent: {}
+[1.603798] (-) TimerEvent: {}
+[1.704162] (-) TimerEvent: {}
+[1.804593] (-) TimerEvent: {}
+[1.905025] (-) TimerEvent: {}
+[2.005409] (-) TimerEvent: {}
+[2.106016] (-) TimerEvent: {}
+[2.206528] (-) TimerEvent: {}
+[2.307014] (-) TimerEvent: {}
+[2.407488] (-) TimerEvent: {}
+[2.507912] (-) TimerEvent: {}
+[2.608271] (-) TimerEvent: {}
+[2.708751] (-) TimerEvent: {}
+[2.809169] (-) TimerEvent: {}
+[2.909552] (-) TimerEvent: {}
+[3.009926] (-) TimerEvent: {}
+[3.110329] (-) TimerEvent: {}
+[3.210737] (-) TimerEvent: {}
+[3.311145] (-) TimerEvent: {}
+[3.411556] (-) TimerEvent: {}
+[3.511925] (-) TimerEvent: {}
+[3.612267] (-) TimerEvent: {}
+[3.712632] (-) TimerEvent: {}
+[3.812961] (-) TimerEvent: {}
+[3.913430] (-) TimerEvent: {}
+[4.013872] (-) TimerEvent: {}
+[4.114244] (-) TimerEvent: {}
+[4.214632] (-) TimerEvent: {}
+[4.314984] (-) TimerEvent: {}
+[4.415280] (-) TimerEvent: {}
+[4.515605] (-) TimerEvent: {}
+[4.615957] (-) TimerEvent: {}
+[4.716289] (-) TimerEvent: {}
+[4.816632] (-) TimerEvent: {}
+[4.873402] (turtle_circle) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable turtle_circle_publisher\x1b[0m\n'}
+[4.916762] (-) TimerEvent: {}
+[4.993581] (turtle_circle) StdoutLine: {'line': b'[ 75%] Built target turtle_circle_publisher\n'}
+[5.016935] (-) TimerEvent: {}
+[5.117356] (-) TimerEvent: {}
+[5.217748] (-) TimerEvent: {}
+[5.318070] (-) TimerEvent: {}
+[5.418448] (-) TimerEvent: {}
+[5.518826] (-) TimerEvent: {}
+[5.619197] (-) TimerEvent: {}
+[5.719567] (-) TimerEvent: {}
+[5.819985] (-) TimerEvent: {}
+[5.920304] (-) TimerEvent: {}
+[6.020722] (-) TimerEvent: {}
+[6.121110] (-) TimerEvent: {}
+[6.221485] (-) TimerEvent: {}
+[6.321887] (-) TimerEvent: {}
+[6.422420] (-) TimerEvent: {}
+[6.522789] (-) TimerEvent: {}
+[6.623178] (-) TimerEvent: {}
+[6.723503] (-) TimerEvent: {}
+[6.823941] (-) TimerEvent: {}
+[6.895695] (turtle_circle) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_pose_subscriber\x1b[0m\n'}
+[6.924119] (-) TimerEvent: {}
+[7.024698] (-) TimerEvent: {}
+[7.084102] (turtle_circle) StdoutLine: {'line': b'[100%] Built target turtle_pose_subscriber\n'}
+[7.093331] (turtle_circle) CommandEnded: {'returncode': 0}
+[7.093885] (turtle_circle) JobProgress: {'identifier': 'turtle_circle', 'progress': 'install'}
+[7.101454] (turtle_circle) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zzz/ros2_ws/build/turtle_circle'], 'cwd': '/home/zzz/ros2_ws/build/turtle_circle', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'zzz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zzz', 'OLDPWD': '/home/zzz/ros2_ws/src/turtle_circle', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2887', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zzz', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zzz', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/zzz-VMware-Virtual-Platform:@/tmp/.ICE-unix/2638,unix/zzz-VMware-Virtual-Platform:/tmp/.ICE-unix/2638', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7e213c6a_3c38_420e_b7b0_34d1bb6c518e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zzz/ros2_ws/build/turtle_circle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.107301] (turtle_circle) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.107476] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/zzz/ros2_ws/install/turtle_circle/lib/turtle_circle/turtle_circle_publisher\n'}
+[7.108327] (turtle_circle) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzz/ros2_ws/install/turtle_circle/lib/turtle_circle/turtle_circle_publisher" to ""\n'}
+[7.108445] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/zzz/ros2_ws/install/turtle_circle/lib/turtle_circle/turtle_pose_subscriber\n'}
+[7.110973] (turtle_circle) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzz/ros2_ws/install/turtle_circle/lib/turtle_circle/turtle_pose_subscriber" to ""\n'}
+[7.111103] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/zzz/ros2_ws/install/turtle_circle/share/ament_index/resource_index/package_run_dependencies/turtle_circle\n'}
+[7.111153] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/zzz/ros2_ws/install/turtle_circle/share/ament_index/resource_index/parent_prefix_path/turtle_circle\n'}
+[7.111237] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/zzz/ros2_ws/install/turtle_circle/share/turtle_circle/environment/ament_prefix_path.sh\n'}
+[7.111287] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/zzz/ros2_ws/install/turtle_circle/share/turtle_circle/environment/ament_prefix_path.dsv\n'}
+[7.111321] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/zzz/ros2_ws/install/turtle_circle/share/turtle_circle/environment/path.sh\n'}
+[7.111429] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/zzz/ros2_ws/install/turtle_circle/share/turtle_circle/environment/path.dsv\n'}
+[7.111573] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/zzz/ros2_ws/install/turtle_circle/share/turtle_circle/local_setup.bash\n'}
+[7.111615] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/zzz/ros2_ws/install/turtle_circle/share/turtle_circle/local_setup.sh\n'}
+[7.111700] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/zzz/ros2_ws/install/turtle_circle/share/turtle_circle/local_setup.zsh\n'}
+[7.111750] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/zzz/ros2_ws/install/turtle_circle/share/turtle_circle/local_setup.dsv\n'}
+[7.111798] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/zzz/ros2_ws/install/turtle_circle/share/turtle_circle/package.dsv\n'}
+[7.111893] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/zzz/ros2_ws/install/turtle_circle/share/ament_index/resource_index/packages/turtle_circle\n'}
+[7.111932] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/zzz/ros2_ws/install/turtle_circle/share/turtle_circle/cmake/turtle_circleConfig.cmake\n'}
+[7.111961] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/zzz/ros2_ws/install/turtle_circle/share/turtle_circle/cmake/turtle_circleConfig-version.cmake\n'}
+[7.111988] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/zzz/ros2_ws/install/turtle_circle/share/turtle_circle/package.xml\n'}
+[7.113052] (turtle_circle) CommandEnded: {'returncode': 0}
+[7.121932] (turtle_circle) JobEnded: {'identifier': 'turtle_circle', 'rc': 0}
+[7.122507] (-) EventReactorShutdown: {}
